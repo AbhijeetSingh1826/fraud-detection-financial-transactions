@@ -1,0 +1,9 @@
+venv/
+data/*.csv
+models/X_train*.pkl
+models/X_test*.pkl
+models/y_train*.pkl
+models/y_test*.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
