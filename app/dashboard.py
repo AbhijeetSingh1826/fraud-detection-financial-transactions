@@ -12,7 +12,7 @@ st.markdown("Monitoring transaction stream for fraudulent activity")
 # --- Load results from the stream simulation ---
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/stream_results.csv")
+    return pd.read_csv("data/stream_results.csv")
 
 results_df = load_data()
 
